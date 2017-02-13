@@ -42,7 +42,7 @@ function ChartController($scope,apiService) {
                     rotateLabels: 30
                 },
                 yAxis: {
-                    axisLabel: 'Blood pressure',
+                    axisLabel: 'Blood pressure, mm[Hg]',
                     axisLabelDistance: -10
                 },
                 callback: function(chart){
