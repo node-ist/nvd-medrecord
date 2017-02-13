@@ -1,0 +1,22 @@
+{
+  "name": "nvd",
+  "version": "0.0.0",
+  "homepage": "",
+  "authors": [
+    "nodeist95@gmail.com"
+  ],
+  "description": "nvd3 MedRecord",
+  "moduleType": [],
+  "license": "MIT",
+  "dependencies": {
+    "angular-nvd3": "^1.0.9",
+    "restangular": "*" 
+  },
+  "main": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ]
+}

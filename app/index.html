@@ -1,0 +1,17 @@
+@@include('_head.html')
+<div ng-app='myApp'>
+    <div ng-controller='ChartController as vm'> 
+    	<button class="btn"
+    	 	ng-class="{active : vm.activebtn == 'blood'}"
+    	  	ng-click="vm.bloodpressureShow()">Blood Pressure</button>
+    	<button class="btn" 
+    		ng-class="{active : vm.activebtn == 'bmi'}" 
+    		ng-click="vm.bmiShow()">BMI</button>
+    	<button class="btn"
+    		 ng-class="{active : vm.activebtn == 'acq'}"
+    		 ng-click="vm.acqShow()">ACQ</button>
+    	
+        <nvd3 options='vm.chartOptions' data='vm.chartData'></nvd3>
+    </div> 
+</div>
+@@include('_footer.html')  
